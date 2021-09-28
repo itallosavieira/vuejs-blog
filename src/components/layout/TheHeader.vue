@@ -5,9 +5,9 @@
 			<ul>
 				<li><router-link to="/about">About</router-link></li>
 				<li><router-link to="/projects">Projects</router-link></li>
-				<li><router-link to="/blog">Artiles</router-link></li>
+				<li><router-link to="/blog">Articles</router-link></li>
 			</ul>
-			<div>Search</div>
+			<social-icons></social-icons>
 		</nav>
 	</header>
 </template>
