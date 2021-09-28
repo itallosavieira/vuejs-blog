@@ -1,5 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import AboutMe from './pages/about/AboutMe.vue'
+import ArticlesList from './pages/blog/ArticlesList.vue'
+import ArticlePost from './pages/blog/ArticlePost.vue'
+import ProjectsList from './pages/projects/ProjectsList.vue'
+import ProjectDetail from './pages/projects/ProjectDetail.vue'
+import NotFound from './pages/NotFound.vue'
+
 const router = createRouter({
 	history: createWebHistory(),
 	routes: [
